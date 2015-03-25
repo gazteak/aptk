@@ -6,13 +6,13 @@
 
 /*****************************************/
 
-function aprenditek_enqueue_styles() {
+function aprenditeka_enqueue_styles() {
 
     // Loads parent stylesheet
 	wp_enqueue_style( 'zerif_parent_style', get_template_directory_uri() . '/style.css', array('zerif_pixeden_style'), '1.0' );
 
 }
-add_action( 'wp_enqueue_scripts', 'aprenditek_enqueue_styles' );
+add_action( 'wp_enqueue_scripts', 'aprenditeka_enqueue_styles' );
 
 // Custom Function to Include
 function favicon_link() {
@@ -47,12 +47,12 @@ add_action( 'wp_head', 'favicon_link' );
 
 /*****************************************/
 
-function aprenditek_register_widgets() {
+function aprenditeka_register_widgets() {
 
-    register_widget('aprenditek_map_widget');
+    register_widget('aprenditeka_map_widget');
 
 }
-add_action('widgets_init', 'aprenditek_register_widgets');
+add_action('widgets_init', 'aprenditeka_register_widgets');
 
 
 /****************************/
@@ -62,26 +62,26 @@ add_action('widgets_init', 'aprenditek_register_widgets');
 /****************************/
 
 
-function aprenditek_map_widget_scripts() {
+function aprenditeka_map_widget_scripts() {
 
     wp_enqueue_media();
 
-    wp_enqueue_script('aprenditek_map_widget_script', get_stylesheet_directory_uri() . '/js/widget-map.js', false, '1.0', true);
+    wp_enqueue_script('aprenditeka_map_widget_script', get_stylesheet_directory_uri() . '/js/widget-map.js', false, '1.0', true);
 
 }
-add_action('customize_controls_print_scripts', 'aprenditek_map_widget_scripts');
+add_action('customize_controls_print_scripts', 'aprenditeka_map_widget_scripts');
 
 
-class aprenditek_map_widget extends WP_Widget
+class aprenditeka_map_widget extends WP_Widget
 {
 
 
-    function aprenditek_map_widget()
+    function aprenditeka_map_widget()
     {
 
-        $widget_ops = array('classname' => 'aprenditek');
+        $widget_ops = array('classname' => 'aprenditeka');
 
-        $this->WP_Widget('aprenditek_map-widget', 'Aprenditek - Map widget', $widget_ops);
+        $this->WP_Widget('aprenditeka_map-widget', 'Aprenditeka - Map widget', $widget_ops);
 
     }
 
@@ -180,7 +180,7 @@ class aprenditek_map_widget extends WP_Widget
 
         <p>
 
-            <label for="<?php echo $this->get_field_id('name'); ?>"><?php _e('Name', 'aprenditek'); ?></label><br/>
+            <label for="<?php echo $this->get_field_id('name'); ?>"><?php _e('Name', 'aprenditeka'); ?></label><br/>
 
             <input type="text" name="<?php echo $this->get_field_name('name'); ?>"
                    id="<?php echo $this->get_field_id('name'); ?>" value="<?php if( !empty($instance['name']) ): echo $instance['name']; endif; ?>"
@@ -191,7 +191,7 @@ class aprenditek_map_widget extends WP_Widget
 
         <p>
 
-            <label for="<?php echo $this->get_field_id('position'); ?>"><?php _e('Position', 'aprenditek'); ?></label><br/>
+            <label for="<?php echo $this->get_field_id('position'); ?>"><?php _e('Position', 'aprenditeka'); ?></label><br/>
 
             <input type="text" name="<?php echo $this->get_field_name('position'); ?>"
                    id="<?php echo $this->get_field_id('position'); ?>" value="<?php if( !empty($instance['position']) ): echo apply_filters('widget_title', $instance['position']); endif; ?>"
@@ -203,7 +203,7 @@ class aprenditek_map_widget extends WP_Widget
         <p>
 
             <label
-                for="<?php echo $this->get_field_id('description'); ?>"><?php _e('Description', 'aprenditek'); ?></label><br/>
+                for="<?php echo $this->get_field_id('description'); ?>"><?php _e('Description', 'aprenditeka'); ?></label><br/>
 
             <input type="text" name="<?php echo $this->get_field_name('description'); ?>"
                    id="<?php echo $this->get_field_id('description'); ?>"
@@ -214,7 +214,7 @@ class aprenditek_map_widget extends WP_Widget
 		
         <p>
 
-            <label for="<?php echo $this->get_field_id('image_uri'); ?>"><?php _e('Image', 'aprenditek'); ?></label><br/>
+            <label for="<?php echo $this->get_field_id('image_uri'); ?>"><?php _e('Image', 'aprenditeka'); ?></label><br/>
 
 
             <?php
@@ -235,7 +235,7 @@ class aprenditek_map_widget extends WP_Widget
 
 
             <input type="button" class="button button-primary custom_media_button_team" id="custom_media_button_clients"
-                   name="<?php echo $this->get_field_name('image_uri'); ?>" value="<?php _e('Upload Image','aprenditek'); ?>"
+                   name="<?php echo $this->get_field_name('image_uri'); ?>" value="<?php _e('Upload Image','aprenditeka'); ?>"
                    style="margin-top:5px;"/>
 
         </p>

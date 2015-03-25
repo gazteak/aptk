@@ -1,15 +1,15 @@
 /*
  Theme Name:   Aprentideka
- Theme URI:	http://aprenditeka.com
- Description:  Aprenditek es el tema de WordPress para la página Aprenditeka.com
+ Theme URI:	http://aprenditeka.info
+ Description:  Aprenditeka es el tema de WordPress para la página Aprenditeka.info
  Author:	   Javi Meléndez
- Author URI:   http://aprenditeka.com
+ Author URI:   http://aprenditeka.info
  Template:	 zerif-lite
  Version:	  1.0.0
  License:	  GNU General Public License v2 or later
  License URI:  http://www.gnu.org/licenses/gpl-2.0.html
  Tags:		 light, dark, one-column, two-columns, right-sidebar, responsive-layout, custom-background, custom-menu, editor-style, featured-images, threaded-comments, translation-ready
- Text Domain:  aprentideka
+ Text Domain:  aprenditeka
 */
 
 
@@ -235,23 +235,8 @@ h2.white-text {
 .our-team {
 	background: #fff;
 }
-.team-box {
-	min-width: 42%;
-}
 .team-member {
 	padding-bottom: 20px;
-}
-.team-member .details {
-	height: auto;
-	top: auto;
-	position: relative;
-	margin-top: -6px;
-	background: rgba(51, 51, 51, 0.7) !important;
-	color: #fff;
-	transition: all 0.4s ease-in-out;
-}
-.team-member:hover .details {
-	border-radius: 0 0 5px 5px;
 }
 .team-member .social-icons ul li a {
 	background: none;
@@ -444,17 +429,10 @@ Footer
 /*---------------------------------------
  **   Responsive			-----
 -----------------------------------------*/
-/* @media (max-width: 767px) {
+@media (max-width: 767px) {
 
 	/* HEADER *
 	#main-nav {
 		overflow: visible;
 	}
-} */
-
-/*--------------------------------------------------------------
- ** POPUP -- BORRAR          -----
---------------------------------------------------------------*/
-div.popup, div.bModal, div.__bPopup1 {
-	display: none !important;
 }

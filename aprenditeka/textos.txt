@@ -10,7 +10,7 @@ Aprenditeka
 Aprende jugando
 
 
-<div class="zerif-copyright-box"><a class="zerif-copyright" href="http://aprenditeka.com" target="_blank" rel="nofollow"><img src="/favicon/favicon-32x32.png" alt="Aprenditeka" /><br />Aprenditeka</a></div>
+<div class="zerif-copyright-box"><a class="zerif-copyright" href="http://aprenditeka.info" target="_blank" rel="nofollow"><img src="/favicon/favicon-32x32.png" alt="Aprenditeka" /><br />Aprenditeka</a></div>
 
 https://www.facebook.com/aprenditeka
 
@@ -18,7 +18,7 @@ https://twitter.com/aprenditeka
 
 aprenditeka@gmail.com
 
-644 55 55 55
+644 36 00 12
 
 Ibaigane 2, 48930 Getxo, Bizkaia
 
@@ -33,26 +33,38 @@ Nuestros Cursos
 
 Quiénes Somos
 
-“Más de 3 años en el sector y nuevas ideas de negocio”
+Más de 3 años como formadores
 
 Conócenos un poco más
 
 Aprenditeka es una iniciativa educativa orientada al desarrollo de las habilidades tecnológicas e informáticas de los jóvenes y no tan “jóvenes”.<br /><br /> Aprenditeka busca enseñar una tecnología cada vez más importante en nuestra sociedad como es la robótica, así como la programación y el manejo de programas de edición digital.
 
-Entusiastas Inquietos Cercanos Racionales
+Entusiastas ¡Sí!
+Inquietos Siempre pensado en mejorar
+Cercanos Estamos a tu lado
+Técnicos Pués un poco también
 
 
 Donde Estamos
 
+Nos puedes encontrar en...
+
+
+Algunos Testimonios
+
+Nuestros clientes opinan
+
 
 Últimas Entradas
+
+Conoce la última hora de Aprenditeka
 
 
 Contacto
 
 Envíanos un mensaje y te contestaremos tan pronto como sea posible.
 
-gazteak@gmail.com
+hola@aprenditeka.info
 
 Enviar mensaje
 
@@ -86,7 +98,7 @@ Academia Ibaigane, número 2, junto a la parada de Areeta del Metro Bilbao
 
 
 
-<a class="twitter-timeline" href="https://twitter.com/jabibi" data-widget-id="579980045252456448" data-link-color="#3B94D9" data-aria-polite="assertive" data-screen-name="aprenditeka" width="520" height="520"> Tweets by @jabibi.
+<a class="twitter-timeline" href="https://twitter.com/aprenditeka" data-widget-id="579980045252456448" data-link-color="#3B94D9" data-aria-polite="assertive" data-screen-name="aprenditeka" width="520" height="520"> Tweets by @aprenditeka.
 </a>
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 
